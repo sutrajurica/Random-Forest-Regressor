@@ -1,38 +1,8 @@
-# 🌐 Gazelle Web Application
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gazelle.streamlit.app/)
-[![Dataset](https://img.shields.io/badge/Kaggle-Dataset-blue?logo=kaggle)](https://www.kaggle.com/datasets/jeffreybraun/running-log-insight)
-[![Python](https://img.shields.io/badge/Python-3.9+-green?logo=python)](https://www.python.org/)
-
-Gazelle is an interactive web application designed to analyze running logs and predict performance metrics using fine-tuned machine learning models.
-
 ---
 
-## 🔗 Quick Links
+## 🌐 Gazelle Web Application
 
-- **Live Demo:** [gazelle.streamlit.app](https://gazelle.streamlit.app/)
-- **Data Source:** [Kaggle – Running Log Insight](https://www.kaggle.com/datasets/jeffreybraun/running-log-insight)
-
----
-
-## 📂 Repository Structure
-
-The core codebase is organized into modular scripts for model training, visualization, and application deployment:
-
-| File | Description |
-| :--- | :--- |
-| **`ForestFineTune.py`** | Hyperparameter fine-tuning pipeline for the Random Forest model. |
-| **`Plotter.py`** | Visualizes train vs. test set error curves across decision tree depths to identify optimal hyperparameter thresholds. |
-| **`Predictor.py`** | Contains the core prediction logic and feature engineering pipelines. |
-| **`WebApp.py`** | Main entry point combining the prediction backend with the interactive Streamlit UI. |
+- **Live Web App:** [gazelle.streamlit.app](https://gazelle.streamlit.app/)
+- **Sample Dataset:** [Kaggle - Running Log Insight](https://www.kaggle.com/datasets/jeffreybraun/running-log-insight)
 
 ---
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Ensure you have Python installed along with the required dependencies:
-
-```bash
-pip install streamlit scikit-learn pandas numpy matplotlib
