@@ -1,8 +1,13 @@
-ForestFineTune.py - script for fine tuning RandomForest hyperparameters
+## 🌐 Gazelle Web Application
 
-Plotter.py - script for plotting the relationship between error and depth for test set and train set to 
+- **Live Web App:** [gazelle.streamlit.app](https://gazelle.streamlit.app/)
+- **Sample Dataset:** [Kaggle - Running Log Insight](https://www.kaggle.com/datasets/jeffreybraun/running-log-insight)
+
+- **ForestFineTune.py - script for fine tuning RandomForest hyperparameters
+
+- **Plotter.py - script for plotting the relationship between error and depth for test set and train set to 
              identify optimal hyperparameters
 
-Predictor.py - core logic of the web application
+- **Predictor.py - core logic of the web application
 
-WebApp.py - the complete web application: core logic + streamlit
+- **WebApp.py - the complete web application: core logic + streamlit
